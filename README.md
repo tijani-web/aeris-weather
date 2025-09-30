@@ -1,16 +1,81 @@
-# React + Vite
+# Aeris – React Weather Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aeris is a modern, responsive weather dashboard built with **React** as part of my **Front-End Web Development Internship at Elevvo Pathways**.  
 
-Currently, two official plugins are available:
+The project demonstrates clean UI design, API integration, local storage handling, and essential weather features such as **current location weather**, **city search**, and **multi-day forecasts**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📍 **Current location weather** with geolocation support  
+- 🔎 **Search for cities** worldwide (OpenWeather API)  
+- 💾 **Save & manage favorite cities** (local storage)  
+- 🌤️ **3-day forecast** for each saved city  
+- 🔄 **Metric / Imperial toggle** (°C / °F)  
+- 🌓 **Dark/Light mode theme support**  
+- 🎨 **Dynamic icons & themes** that match real-time weather (sunny, rainy, snowy, foggy, thunderstorm, etc.)  
+- ⚡ **Fast performance** powered by Vite  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **React** – Component-based UI  
+- **CSS** – Custom styling (responsive + theme-based)  
+- **React Icons (Weather Icons)** – Weather conditions visuals  
+- **Vite** – Fast dev environment & build tool  
+- **OpenWeather API** – Real-time weather & forecast data  
+
+---
+
+## 📂 Project Structure
+
+```plaintext
+src/
+  components/
+    Dashboard.js        // main parent layout
+    SearchBar.js        // search input for new cities
+    LocationWeather.js  // auto-detect current location weather
+    WeatherCard.js      // city card with forecast
+    ModeToggle.js       // dark/light mode switch
+    Spinner.js          // loading spinner
+    Footer.js           // app footer
+  utils/
+    weatherUtils.js     // weather icons + theme mapping
+  styles/
+    footer.css
+    locationWeather.css
+    modeToggle.css
+    searchBar.css
+    spinner.css
+    weatherCard.css
+  App.jsx
+  Main.jsx
+```
+
+```
+Getting Started
+Prerequisites
+
+Node.js (>= 18.x recommended)
+
+npm or yarn
+```
+
+``` Clone the repository
+git clone https://github.com/tijani-web/aeris-weather.git
+cd aeris
+```
+
+``` Install dependencies
+npm install
+````
+``` Run the development server
+npm run dev
+````
+This project was completed as part of the **Elevvo Pathways Front-End Web Development Internship**.  
+
+Special thanks to:  
+- Elevvo Pathways([https://www.linkedin.com/company/elevvopaths/]) for the opportunity  
+- Vite [https://vitejs.dev/] – build tool
