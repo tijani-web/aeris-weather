@@ -63,15 +63,17 @@ Node.js (>= 18.x recommended)
 npm or yarn
 ```
 
-``` Clone the repository
+Clone the repository
+```
 git clone https://github.com/tijani-web/aeris-weather.git
 cd aeris
 ```
-
-``` Install dependencies
+Install dependencies
+```
 npm install
-````
-``` Run the development server
+```
+Run the development server
+```
 npm run dev
 ````
 This project was completed as part of the **Elevvo Pathways Front-End Web Development Internship**.  
