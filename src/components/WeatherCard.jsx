@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { X, Thermometer, Droplets, Wind, Gauge } from 'lucide-react';
 import { getWeatherIcon, getWeatherTheme } from '../utils/weathericons.jsx';
-import '../styles/weatherCard.css';
+import '../styles/weathercard.css';
 
 const WeatherCard = ({ cityData, unit, onRemove, isCurrentLocation = false }) => {
   const {
