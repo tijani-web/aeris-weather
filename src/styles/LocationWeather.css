@@ -1,0 +1,30 @@
+.location-weather {
+  margin-bottom: 2rem;
+}
+
+.location-weather h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.location-loading,
+.location-error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  background: var(--bg-card);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border-color);
+  gap: 1rem;
+  text-align: center;
+}
+
+.location-error {
+  color: var(--error-color);
+}

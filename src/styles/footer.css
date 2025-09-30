@@ -1,0 +1,9 @@
+.app-footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: var(--bg-card);
+  border-top: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  margin-top: auto;
+}
